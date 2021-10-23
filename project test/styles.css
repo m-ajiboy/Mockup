@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+background: blueviolet;
+}
+
+.container{
+    /* height: 90%; */
+    width: 30%;
+    margin: 200px auto ;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.container  > div:nth-of-type(1) p{
+    text-align: center;
+    margin-bottom: 20px;
+
+    }
+
+img{
+    width: 100%;
+}
+
+
+
+/* .image{
+    background: url("./img/istockphoto-1312765909-1024x1024.jpg");
+    width: 100%;
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+} */
+
+.annual {
+    display: flex;
+width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background: grey;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.fa-music{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+    background: white;
+    color: grey;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.music{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.button{
+    text-align: center;
+    background-color: blue;
+    width: 80%;
+    background-position: center;
+    margin: 20px auto;
+    height: 35px;
+    padding: 10px;
+    color: white;
+    border-radius: 8px;
+}
+.cancel {
+    text-align: center;
+    margin-bottom: 20px;
+}
